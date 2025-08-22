@@ -1,0 +1,30 @@
+* {
+	top: 0;
+	padding: 0;
+	margin: 0;
+	border: 1px solid black;
+	text-align: center;
+}
+
+nav {
+	position: fixed;
+	height: 10vh;
+	width: 100vw;
+	transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s;
+	border: 1px solid black;
+}
+
+div {
+	height: 100vh;
+}
+
+#about_us_header {
+	margin-top: 20vh;
+}
+
+#about_us_description {
+	text-align: justify;
+	margin-left: 30vw;
+	width: 40vw;
+	height: 40vh;
+}
