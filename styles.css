@@ -2,11 +2,12 @@
 	top: 0;
 	padding: 0;
 	margin: 0;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	text-align: center;
 }
 
 nav {
+	background-color: bisque;
 	position: fixed;
 	height: 10vh;
 	width: 100vw;
@@ -18,6 +19,10 @@ div {
 	height: 100vh;
 }
 
+#about_us {
+	border: 1px solid black;
+}
+
 #about_us_header {
 	margin-top: 20vh;
 }
@@ -27,4 +32,36 @@ div {
 	margin-left: 30vw;
 	width: 40vw;
 	height: 40vh;
+}
+
+#browse {
+	border: 1px solid black;
+}
+
+#browse_header {
+	margin-top: 20vh;
+}
+
+#browse_description {
+	text-align: justify;
+	margin-left: 30vw;
+	width: 40vw;
+	height: 40vh;
+}
+
+#footer {
+	border: 1px solid black;
+	height: 10vh;
+}
+
+#footer_header {
+	margin-top: 20vh;
+}
+
+#footer_body {
+	text-align: justify;
+	background-color: bisque;
+	margin-left: 30vw;
+	width: 40vw;
+	height: 10vh;
 }
